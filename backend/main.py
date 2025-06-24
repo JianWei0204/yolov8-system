@@ -6,6 +6,8 @@ from yolov8_infer import run_detection
 from database import add_history, get_all_history
 import shutil
 
+
+
 app = FastAPI()
 
 app.add_middleware(
